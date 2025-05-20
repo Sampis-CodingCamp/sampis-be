@@ -1,0 +1,36 @@
+{
+  "name": "sampis-backend",
+  "version": "1.0.0",
+  "description": "Backend untuk aplikasi Sampis",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "hapi",
+    "rest-api",
+    "sampis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/h2o2": "^10.0.4",
+    "@hapi/hapi": "^21.3.3",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/jwt": "^3.1.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
